@@ -18,7 +18,6 @@ class Inventory extends React.Component {
     };
     this.props.addFish(fish);
     e.currentTarget.reset();
-    console.log(fish);
   };
 
   render() {

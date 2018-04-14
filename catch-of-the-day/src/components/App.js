@@ -63,7 +63,6 @@ class App extends React.Component {
   }
 
   removeFromOrder = (key) => {
-    console.log(key);
     const order = { ...this.state.order };
 
     delete order[key];
